@@ -38,6 +38,8 @@ export default defineConfig({
         type: 'module',
       },
     }),
-    tanstackStart(),
+    tanstackStart({
+      target: 'bun'
+    }),
   ],
 })
